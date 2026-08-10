@@ -35,5 +35,9 @@ manifest:
     - name: zmk-keyboard-re-gret
       remote: rschenk
       revision: main
+    - name: zmk-config-keebart
+      url: https://github.com/Keebart/zmk-config
+      revision: main
+      path: modules/zmk-config-keebart
   self:
     path: config
