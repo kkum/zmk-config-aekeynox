@@ -1,16 +1,15 @@
 // By default, the firmware will be built with HRM support for a QWERTY computer.
 // Uncomment definitions in this file to activate options.
 
-
 /******************************************************************************
  * Host Computer (keyboard layout and OS)
-******************************************************************************/
+ ******************************************************************************/
 
 // Uncomment one of the following lines if the host computer is configured with
 // a non-QWERTY keyboard layout. This is required to set an appropriate
 // 'Symbols' layer and relevant keyboard shortcuts in the 'Nav' layer.
 
-// #define KB_LAYOUT_AZERTY
+#define KB_LAYOUT_AZERTY
 // #define KB_LAYOUT_BEPO
 // #define KB_LAYOUT_BEPOLAR
 // #define KB_LAYOUT_DVORAK
@@ -23,12 +22,11 @@
 // Uncomment one of the following lines if the host computer doen't run Windows.
 
 // #define MACOS
-// #define LINUX
-
+#define LINUX
 
 /******************************************************************************
  * Layout Emulation
-******************************************************************************/
+ ******************************************************************************/
 
 // [Experimental]
 // Uncomment one of the following lines to enable layout emulation,
@@ -40,7 +38,7 @@
 
 // #define KB_EMULATION_DVORAK           // host: QWERTY
 // #define KB_EMULATION_ERGOL            // host: QWERTY-intl or AZERTY
-// #define KB_EMULATION_QWERTY_LAFAYETTE // host: QWERTY-intl or AZERTY
+#define KB_EMULATION_QWERTY_LAFAYETTE // host: QWERTY-intl or AZERTY
 
 // [Experimental]
 // Uncomment the following line for an extended character support on Windows.
@@ -55,16 +53,15 @@
 
 // #define ENABLE_FANCY_DEAD_KEYS
 
-
 /******************************************************************************
  * Hold-Taps
-******************************************************************************/
+ ******************************************************************************/
 
 // Uncomment one of the following lines to pick your preferred hold-tap config.
 
 // #define HT_NONE
 // #define HT_THUMB_TAPS
-// #define HT_HOME_ROW_MODS  // (default behavior)
+#define HT_HOME_ROW_MODS // (default behavior)
 // #define HT_TWO_THUMB_KEYS
 
 // Timing is key! Keep the default value if unsure.
@@ -91,10 +88,9 @@
 // For more information on how hold-taps operate, feel free to read ZMK’s docs:
 // https://zmk.dev/docs/keymaps/behaviors/hold-tap
 
-
 /******************************************************************************
  * Other Options
-*****************************************************************************/
+ *****************************************************************************/
 
 // Uncomment the following line to split the NavNum layer in two:
 //  - one layer for vim-style navigation (right) and GUI shortcuts (left)
@@ -102,7 +98,7 @@
 //  + Escape under the left thumb (direct access)
 // Highly recommended for Vim users, obviously. :-)
 
-// #define VIM_NAVIGATION
+#define VIM_NAVIGATION
 
 // [Experimental]
 // Uncomment the following line to enable the "mod-hold behavior" on the left
