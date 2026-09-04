@@ -35,9 +35,9 @@ manifest:
     - name: zmk-keyboard-re-gret
       remote: rschenk
       revision: main
-    - name: zmk-config-keebart
+    - name: zmk-config-keebart-corne-choc-pro
       url: https://github.com/Keebart/zmk-config
       revision: main
-      path: modules/zmk-config-keebart
+      path: boards/arm/corne_choc_pro
   self:
     path: config
