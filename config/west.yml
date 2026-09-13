@@ -20,6 +20,8 @@ manifest:
       url-base: https://github.com/rloutier
     - name: rschenk
       url-base: https://github.com/rschenk
+    - name: kkum
+      url-base: https://github.com/kkum
 
   projects:
       # We rely on a fork of ZMK for a couple of reasons:
@@ -80,6 +82,11 @@ manifest:
     - name: zmk-keyboard-re-gret
       remote: rschenk
       revision: 34ca1fc7dc6991475b0c20f2c8361598e7aaeaca
+
+      # Keebart : split nrf52840 and sharp_mip -based keyboard
+    - name: zmk-keyboard-keebart
+      remote: kkum
+      revision: main
 
   self:
     path: config
