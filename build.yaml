@@ -42,6 +42,19 @@ include:
   # => make sure the `board` field matches the MCU on your keyboard
   ##
 
+
+  - board: corne_choc_pro_5col_left
+    shield: sharp_mip
+    artifact-name: corne_choc_pro_bt_5col_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: corne_choc_pro_5col_right
+    shield: sharp_mip
+    snippet: studio-rpc-usb-uart
+    artifact-name: corne_choc_pro_bt_5col_right
+
+
+
     # Quacken Zero + SparkFun RP2040
   - board: sparkfun_pro_micro_rp2040//zmk
     shield: quacken_zero
