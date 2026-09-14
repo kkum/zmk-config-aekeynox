@@ -8,7 +8,6 @@
 #   open a PR to update this hash if improvements are made.
 
 manifest:
-
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -24,11 +23,11 @@ manifest:
       url-base: https://github.com/kkum
 
   projects:
-      # We rely on a fork of ZMK for a couple of reasons:
-      # 1. to pin the version of ZMK, so we’re not caught off guard by breaking changes
-      # 2. to add some more advanced features that aren’t present upstream
-      #    (unmerged PRs, custom patches…)
-      # More info on the changes present can be found on the fork’s README page.
+    # We rely on a fork of ZMK for a couple of reasons:
+    # 1. to pin the version of ZMK, so we’re not caught off guard by breaking changes
+    # 2. to add some more advanced features that aren’t present upstream
+    #    (unmerged PRs, custom patches…)
+    # More info on the changes present can be found on the fork’s README page.
     - name: zmk
       remote: NuclearSquid
       revision: aekeynox
@@ -84,7 +83,7 @@ manifest:
       revision: 34ca1fc7dc6991475b0c20f2c8361598e7aaeaca
 
       # Keebart : split nrf52840 and sharp_mip -based keyboard
-    - name: zmk-keyboard-keebart
+    - name: zmk-config-keebart
       remote: kkum
       revision: main
 
