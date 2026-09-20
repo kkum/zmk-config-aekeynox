@@ -4,10 +4,10 @@
                                  LOUT2,  LROW2,  RROW2,  ROUT2, \
                                  LOUT3,  LROW3,  RROW3,  ROUT3, \
                                  LT1, LT2, LT3,  RT3, RT2, RT1) \
-      LROW1   RROW1 \
-      LROW2   RROW2 \
-      LROW3   RROW3 \
-LT1 LT2 LT3  RT3 RT2 RT1
+      LROW1  &none  &none  RROW1 \
+      LROW2  &none  &none  RROW2 \
+      LROW3                RROW3 \
+LT1 LT2 LT3                RT3 RT2 RT1
 
 #include <aekeynox/selenium.keymap>
 
