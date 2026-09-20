@@ -10,7 +10,7 @@
 // a non-QWERTY-ANSI keyboard layout. This is required to set an appropriate
 // 'Symbols' layer and relevant keyboard shortcuts in the 'Nav' layer.
 
-#define KB_LAYOUT_AZERTY            // France
+// #define KB_LAYOUT_AZERTY            // France
 // #define KB_LAYOUT_BEPO              // France
 // #define KB_LAYOUT_BEPOLAR           // France
 // #define KB_LAYOUT_DVORAK            // US
@@ -22,7 +22,7 @@
 // #define KB_LAYOUT_QWERTY_ES         // Spain
 // #define KB_LAYOUT_QWERTY_INTL       // US (International)
 // #define KB_LAYOUT_QWERTY_IT         // Italy
-// #define KB_LAYOUT_QWERTY_LAFAYETTE  // France
+#define KB_LAYOUT_QWERTY_LAFAYETTE  // France
 // #define KB_LAYOUT_QWERTY_LATAM      // Latin America
 // #define KB_LAYOUT_QWERTY_LV         // Latvia (Programmers)
 // #define KB_LAYOUT_QWERTY_NO         // Norway
@@ -82,7 +82,7 @@
 // #define KB_EMULATION_COLEMAK_DH       // host: QWERTY
 // #define KB_EMULATION_DVORAK           // host: QWERTY
 // #define KB_EMULATION_ERGOL            // host: QWERTY-intl or AZERTY
-#define KB_EMULATION_QWERTY_LAFAYETTE // host: QWERTY-intl or AZERTY
+// #define KB_EMULATION_QWERTY_LAFAYETTE // host: QWERTY-intl or AZERTY
 
 // [Experimental]
 // Uncomment the following line for an extended character support on Windows.
