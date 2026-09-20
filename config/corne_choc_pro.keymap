@@ -1,0 +1,10 @@
+
+// Corne Choc Pro : 42 keys.
+// Same physical shape as config.corne.keymap
+#include <aekeynox/selenium.keymap>
+
+/ {
+    chosen {
+        zmk,physical-layout = &default_layout;
+    };
+};
