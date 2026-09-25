@@ -1,10 +1,9 @@
 // By default, the firmware will be built with HRM support for a QWERTY computer.
 // Uncomment definitions in this file to activate options.
 
-
 /******************************************************************************
  * Host Computer (keyboard layout and OS)
-******************************************************************************/
+ ******************************************************************************/
 
 // Uncomment one of the following lines if the host computer is configured with
 // a non-QWERTY-ANSI keyboard layout. This is required to set an appropriate
@@ -22,7 +21,7 @@
 // #define KB_LAYOUT_QWERTY_ES         // Spain
 // #define KB_LAYOUT_QWERTY_INTL       // US (International)
 // #define KB_LAYOUT_QWERTY_IT         // Italy
-#define KB_LAYOUT_QWERTY_LAFAYETTE  // France
+#define KB_LAYOUT_QWERTY_LAFAYETTE // France
 // #define KB_LAYOUT_QWERTY_LATAM      // Latin America
 // #define KB_LAYOUT_QWERTY_LV         // Latvia (Programmers)
 // #define KB_LAYOUT_QWERTY_NO         // Norway
@@ -42,12 +41,11 @@
 // Uncomment one of the following lines if the host computer doen't run Windows.
 
 // #define MACOS
-// #define LINUX
-
+#define LINUX
 
 /******************************************************************************
  * Extra Layers
-******************************************************************************/
+ ******************************************************************************/
 
 // By default, Ækeynox fits all non-ASCII layouts on a 3×10 grid by:
 //  - replacing the the semicolon key by a one-shot layer key (1dk)
@@ -65,10 +63,9 @@
 // #define KB_EXTRA_LAYERS_NORDIC    // default for DK, FI, NO, SE
 // #define KB_EXTRA_LAYERS_NONE      // no 1dk layers, use outer cols
 
-
 /******************************************************************************
  * Layout Emulation
-******************************************************************************/
+ ******************************************************************************/
 
 // [Experimental]
 // Uncomment one of the following lines to enable layout emulation,
@@ -97,16 +94,15 @@
 
 // #define ENABLE_FANCY_DEAD_KEYS
 
-
 /******************************************************************************
  * Hold-Taps
-******************************************************************************/
+ ******************************************************************************/
 
 // Uncomment one of the following lines to pick your preferred hold-tap config.
 
 // #define HT_NONE
 // #define HT_THUMB_TAPS
-// #define HT_HOME_ROW_MODS  // (default behavior)
+#define HT_HOME_ROW_MODS // (default behavior)
 // #define HT_TWO_THUMB_KEYS
 
 // Timing is key! Keep the default value if unsure.
@@ -133,10 +129,9 @@
 // For more information on how hold-taps operate, feel free to read ZMK’s docs:
 // https://zmk.dev/docs/keymaps/behaviors/hold-tap
 
-
 /******************************************************************************
  * Other Options
-*****************************************************************************/
+ *****************************************************************************/
 
 // Uncomment the following line to split the NavNum layer in two:
 //  - one layer for vim-style navigation (right) and GUI shortcuts (left)
@@ -163,7 +158,7 @@
 // Uncomment the following line to enable shift as a pinky HRM.
 // Useful for combined shortcuts, but NOT MEANT to type text!
 
-// #define HRM_SHIFT
+#define HRM_SHIFT
 
 // [Experimental]
 // Uncomment the following line to enable a mod-hold behavior when holding
